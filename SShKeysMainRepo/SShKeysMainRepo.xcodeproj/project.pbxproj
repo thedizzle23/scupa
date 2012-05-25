@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2AA1184156FBFB200C630A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA1183156FBFB200C630A3 /* UIKit.framework */; };
+		B2AA1186156FBFB200C630A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA1185156FBFB200C630A3 /* Foundation.framework */; };
+		B2AA1188156FBFB200C630A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA1187156FBFB200C630A3 /* CoreGraphics.framework */; };
+		B2AA118E156FBFB200C630A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2AA118C156FBFB200C630A3 /* InfoPlist.strings */; };
+		B2AA1190156FBFB200C630A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA118F156FBFB200C630A3 /* main.m */; };
+		B2AA1194156FBFB200C630A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA1193156FBFB200C630A3 /* AppDelegate.m */; };
+		B2AA1197156FBFB200C630A3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AA1195156FBFB200C630A3 /* MainStoryboard_iPhone.storyboard */; };
+		B2AA119A156FBFB200C630A3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AA1198156FBFB200C630A3 /* MainStoryboard_iPad.storyboard */; };
+		B2AA119D156FBFB300C630A3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA119C156FBFB300C630A3 /* FirstViewController.m */; };
+		B2AA119F156FBFB300C630A3 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B2AA119E156FBFB300C630A3 /* first.png */; };
+		B2AA11A1156FBFB300C630A3 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2AA11A0156FBFB300C630A3 /* first@2x.png */; };
+		B2AA11A4156FBFB300C630A3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA11A3156FBFB300C630A3 /* SecondViewController.m */; };
+		B2AA11A6156FBFB300C630A3 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B2AA11A5156FBFB300C630A3 /* second.png */; };
+		B2AA11A8156FBFB300C630A3 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B2AA11A7156FBFB300C630A3 /* second@2x.png */; };
+		B2AA11B0156FBFB300C630A3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA11AF156FBFB300C630A3 /* SenTestingKit.framework */; };
+		B2AA11B1156FBFB300C630A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA1183156FBFB200C630A3 /* UIKit.framework */; };
+		B2AA11B2156FBFB300C630A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2AA1185156FBFB200C630A3 /* Foundation.framework */; };
+		B2AA11BA156FBFB300C630A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2AA11B8156FBFB300C630A3 /* InfoPlist.strings */; };
+		B2AA11BD156FBFB300C630A3 /* SShKeysMainRepoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2AA11BC156FBFB300C630A3 /* SShKeysMainRepoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2AA11B3156FBFB300C630A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2AA1176156FBFB200C630A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2AA117E156FBFB200C630A3;
+			remoteInfo = SShKeysMainRepo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2AA117F156FBFB200C630A3 /* SShKeysMainRepo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SShKeysMainRepo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AA1183156FBFB200C630A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2AA1185156FBFB200C630A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2AA1187156FBFB200C630A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2AA118B156FBFB200C630A3 /* SShKeysMainRepo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SShKeysMainRepo-Info.plist"; sourceTree = "<group>"; };
+		B2AA118D156FBFB200C630A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2AA118F156FBFB200C630A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2AA1191156FBFB200C630A3 /* SShKeysMainRepo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SShKeysMainRepo-Prefix.pch"; sourceTree = "<group>"; };
+		B2AA1192156FBFB200C630A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2AA1193156FBFB200C630A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2AA1196156FBFB200C630A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B2AA1199156FBFB200C630A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B2AA119B156FBFB200C630A3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		B2AA119C156FBFB300C630A3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		B2AA119E156FBFB300C630A3 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B2AA11A0156FBFB300C630A3 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B2AA11A2156FBFB300C630A3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B2AA11A3156FBFB300C630A3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B2AA11A5156FBFB300C630A3 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B2AA11A7156FBFB300C630A3 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B2AA11AE156FBFB300C630A3 /* SShKeysMainRepoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SShKeysMainRepoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2AA11AF156FBFB300C630A3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B2AA11B7156FBFB300C630A3 /* SShKeysMainRepoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SShKeysMainRepoTests-Info.plist"; sourceTree = "<group>"; };
+		B2AA11B9156FBFB300C630A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2AA11BB156FBFB300C630A3 /* SShKeysMainRepoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SShKeysMainRepoTests.h; sourceTree = "<group>"; };
+		B2AA11BC156FBFB300C630A3 /* SShKeysMainRepoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SShKeysMainRepoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2AA117C156FBFB200C630A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA1184156FBFB200C630A3 /* UIKit.framework in Frameworks */,
+				B2AA1186156FBFB200C630A3 /* Foundation.framework in Frameworks */,
+				B2AA1188156FBFB200C630A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA11AA156FBFB300C630A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA11B0156FBFB300C630A3 /* SenTestingKit.framework in Frameworks */,
+				B2AA11B1156FBFB300C630A3 /* UIKit.framework in Frameworks */,
+				B2AA11B2156FBFB300C630A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2AA1174156FBFB200C630A3 = {
+			isa = PBXGroup;
+			children = (
+				B2AA1189156FBFB200C630A3 /* SShKeysMainRepo */,
+				B2AA11B5156FBFB300C630A3 /* SShKeysMainRepoTests */,
+				B2AA1182156FBFB200C630A3 /* Frameworks */,
+				B2AA1180156FBFB200C630A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2AA1180156FBFB200C630A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA117F156FBFB200C630A3 /* SShKeysMainRepo.app */,
+				B2AA11AE156FBFB300C630A3 /* SShKeysMainRepoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2AA1182156FBFB200C630A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA1183156FBFB200C630A3 /* UIKit.framework */,
+				B2AA1185156FBFB200C630A3 /* Foundation.framework */,
+				B2AA1187156FBFB200C630A3 /* CoreGraphics.framework */,
+				B2AA11AF156FBFB300C630A3 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AA1189156FBFB200C630A3 /* SShKeysMainRepo */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA1192156FBFB200C630A3 /* AppDelegate.h */,
+				B2AA1193156FBFB200C630A3 /* AppDelegate.m */,
+				B2AA1195156FBFB200C630A3 /* MainStoryboard_iPhone.storyboard */,
+				B2AA1198156FBFB200C630A3 /* MainStoryboard_iPad.storyboard */,
+				B2AA119B156FBFB200C630A3 /* FirstViewController.h */,
+				B2AA119C156FBFB300C630A3 /* FirstViewController.m */,
+				B2AA119E156FBFB300C630A3 /* first.png */,
+				B2AA11A0156FBFB300C630A3 /* first@2x.png */,
+				B2AA11A2156FBFB300C630A3 /* SecondViewController.h */,
+				B2AA11A3156FBFB300C630A3 /* SecondViewController.m */,
+				B2AA11A5156FBFB300C630A3 /* second.png */,
+				B2AA11A7156FBFB300C630A3 /* second@2x.png */,
+				B2AA118A156FBFB200C630A3 /* Supporting Files */,
+			);
+			path = SShKeysMainRepo;
+			sourceTree = "<group>";
+		};
+		B2AA118A156FBFB200C630A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA118B156FBFB200C630A3 /* SShKeysMainRepo-Info.plist */,
+				B2AA118C156FBFB200C630A3 /* InfoPlist.strings */,
+				B2AA118F156FBFB200C630A3 /* main.m */,
+				B2AA1191156FBFB200C630A3 /* SShKeysMainRepo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2AA11B5156FBFB300C630A3 /* SShKeysMainRepoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA11BB156FBFB300C630A3 /* SShKeysMainRepoTests.h */,
+				B2AA11BC156FBFB300C630A3 /* SShKeysMainRepoTests.m */,
+				B2AA11B6156FBFB300C630A3 /* Supporting Files */,
+			);
+			path = SShKeysMainRepoTests;
+			sourceTree = "<group>";
+		};
+		B2AA11B6156FBFB300C630A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2AA11B7156FBFB300C630A3 /* SShKeysMainRepoTests-Info.plist */,
+				B2AA11B8156FBFB300C630A3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2AA117E156FBFB200C630A3 /* SShKeysMainRepo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AA11C0156FBFB300C630A3 /* Build configuration list for PBXNativeTarget "SShKeysMainRepo" */;
+			buildPhases = (
+				B2AA117B156FBFB200C630A3 /* Sources */,
+				B2AA117C156FBFB200C630A3 /* Frameworks */,
+				B2AA117D156FBFB200C630A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SShKeysMainRepo;
+			productName = SShKeysMainRepo;
+			productReference = B2AA117F156FBFB200C630A3 /* SShKeysMainRepo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2AA11AD156FBFB300C630A3 /* SShKeysMainRepoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2AA11C3156FBFB300C630A3 /* Build configuration list for PBXNativeTarget "SShKeysMainRepoTests" */;
+			buildPhases = (
+				B2AA11A9156FBFB300C630A3 /* Sources */,
+				B2AA11AA156FBFB300C630A3 /* Frameworks */,
+				B2AA11AB156FBFB300C630A3 /* Resources */,
+				B2AA11AC156FBFB300C630A3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2AA11B4156FBFB300C630A3 /* PBXTargetDependency */,
+			);
+			name = SShKeysMainRepoTests;
+			productName = SShKeysMainRepoTests;
+			productReference = B2AA11AE156FBFB300C630A3 /* SShKeysMainRepoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2AA1176156FBFB200C630A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Developmental Applications";
+			};
+			buildConfigurationList = B2AA1179156FBFB200C630A3 /* Build configuration list for PBXProject "SShKeysMainRepo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B2AA1174156FBFB200C630A3;
+			productRefGroup = B2AA1180156FBFB200C630A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2AA117E156FBFB200C630A3 /* SShKeysMainRepo */,
+				B2AA11AD156FBFB300C630A3 /* SShKeysMainRepoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2AA117D156FBFB200C630A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA118E156FBFB200C630A3 /* InfoPlist.strings in Resources */,
+				B2AA1197156FBFB200C630A3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B2AA119A156FBFB200C630A3 /* MainStoryboard_iPad.storyboard in Resources */,
+				B2AA119F156FBFB300C630A3 /* first.png in Resources */,
+				B2AA11A1156FBFB300C630A3 /* first@2x.png in Resources */,
+				B2AA11A6156FBFB300C630A3 /* second.png in Resources */,
+				B2AA11A8156FBFB300C630A3 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA11AB156FBFB300C630A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA11BA156FBFB300C630A3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2AA11AC156FBFB300C630A3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2AA117B156FBFB200C630A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA1190156FBFB200C630A3 /* main.m in Sources */,
+				B2AA1194156FBFB200C630A3 /* AppDelegate.m in Sources */,
+				B2AA119D156FBFB300C630A3 /* FirstViewController.m in Sources */,
+				B2AA11A4156FBFB300C630A3 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2AA11A9156FBFB300C630A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AA11BD156FBFB300C630A3 /* SShKeysMainRepoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2AA11B4156FBFB300C630A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2AA117E156FBFB200C630A3 /* SShKeysMainRepo */;
+			targetProxy = B2AA11B3156FBFB300C630A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2AA118C156FBFB200C630A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA118D156FBFB200C630A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2AA1195156FBFB200C630A3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA1196156FBFB200C630A3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B2AA1198156FBFB200C630A3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA1199156FBFB200C630A3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B2AA11B8156FBFB300C630A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2AA11B9156FBFB300C630A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2AA11BE156FBFB300C630A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2AA11BF156FBFB300C630A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2AA11C1156FBFB300C630A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SShKeysMainRepo/SShKeysMainRepo-Prefix.pch";
+				INFOPLIST_FILE = "SShKeysMainRepo/SShKeysMainRepo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2AA11C2156FBFB300C630A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SShKeysMainRepo/SShKeysMainRepo-Prefix.pch";
+				INFOPLIST_FILE = "SShKeysMainRepo/SShKeysMainRepo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2AA11C4156FBFB300C630A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SShKeysMainRepo.app/SShKeysMainRepo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SShKeysMainRepo/SShKeysMainRepo-Prefix.pch";
+				INFOPLIST_FILE = "SShKeysMainRepoTests/SShKeysMainRepoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B2AA11C5156FBFB300C630A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SShKeysMainRepo.app/SShKeysMainRepo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SShKeysMainRepo/SShKeysMainRepo-Prefix.pch";
+				INFOPLIST_FILE = "SShKeysMainRepoTests/SShKeysMainRepoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2AA1179156FBFB200C630A3 /* Build configuration list for PBXProject "SShKeysMainRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA11BE156FBFB300C630A3 /* Debug */,
+				B2AA11BF156FBFB300C630A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2AA11C0156FBFB300C630A3 /* Build configuration list for PBXNativeTarget "SShKeysMainRepo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA11C1156FBFB300C630A3 /* Debug */,
+				B2AA11C2156FBFB300C630A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2AA11C3156FBFB300C630A3 /* Build configuration list for PBXNativeTarget "SShKeysMainRepoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2AA11C4156FBFB300C630A3 /* Debug */,
+				B2AA11C5156FBFB300C630A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2AA1176156FBFB200C630A3 /* Project object */;
+}
